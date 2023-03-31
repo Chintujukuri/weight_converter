@@ -1,0 +1,56 @@
+*{
+  font-family: arial;
+  margin:0;
+  padding: 0;
+}
+#container{
+  border: 1px solid black;  
+  margin: auto; 
+  width: 350px;
+  height: 350px;
+  margin-top: 8%;
+  padding-left:65px ;
+  padding-top:60px;
+  background-color:whitesmoke;
+
+}
+#kilogram,#pounds,#ounces{
+  width: 255px;
+  height: 25px;
+ 
+}
+body{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to right,
+    #101820FF 0%,
+    #101820FF 50%,
+    #FEE715FF 50%,
+    #FEE715FF 100%
+  );
+}
+#button{
+  background-color:whitesmoke;
+  border-color: red;
+  color: red;
+  padding: 10px 28px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 80px;
+  border-radius: 10px;
+}
+#button:hover{
+  background-color:red;
+  color:white;
+  --p: 100%;
+  color: #fff;
+
+}
+#kilogram:hover,#pounds:hover,#ounces:hover{
+  border-color: blue;
+
+}
+
+
